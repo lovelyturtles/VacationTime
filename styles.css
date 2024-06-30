@@ -45,7 +45,7 @@ body, html {
     top: 80%;
     left: 45%;
     -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    animation: spin 3s linear infinite;
   }
   
   @-webkit-keyframes spin {
