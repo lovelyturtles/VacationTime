@@ -1,6 +1,9 @@
 body, html {
     height: 100%
   }
+  .body {
+    background-color: #daecf3;
+  }
   
   .under_construction_bgimg {
     background-image: url("SSTravelPlannerPhotos/Under Construction/Plane.jpg");
