@@ -1,3 +1,3 @@
 # VacationTime
 
-Note: All destination photos were used from https://stock.adobe.com/ca/. 
+Note: All destination and under construction photos were used from https://stock.adobe.com/ca/. 
