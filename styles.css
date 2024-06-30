@@ -35,15 +35,15 @@ body, html {
   .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #022d41;
-    border-right: 16px solid #1aa6b7;
-    border-bottom: 16px solid #fe424d;
-    border-left: 16px solid #daecf3;
+    border-top: 8px solid #022d41;
+    border-right: 8px solid #1aa6b7;
+    border-bottom: 8px solid #fe424d;
+    border-left: 8px solid #daecf3;
     width: 60px;
     height: 60px;
     position: absolute;
     top: 80%;
-    left: 43%;
+    left: 45%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
   }
