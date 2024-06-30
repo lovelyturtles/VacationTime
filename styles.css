@@ -1,0 +1,59 @@
+body, html {
+    height: 100%
+  }
+  
+  .under_construction_bgimg {
+    background-image: url("SSTravelPlannerPhotos/Under Construction/Plane.jpg");
+    background-position: center;
+    height: 70%;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin: 20px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.8);
+  }
+
+  .under_construction_bgimg:hover {
+    opacity: 0.7;
+  }
+
+  .under_construction_middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #022d41;
+    border-right: 16px solid #1aa6b7;
+    border-bottom: 16px solid #fe424d;
+    border-left: 16px solid #daecf3;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
